@@ -1,0 +1,28 @@
+{
+  "name": "jQuery Ajax Loading",
+  "title": "jQuery Ajax Loading",
+  "description": "jQuery Ajax Loading",
+  "version": "1.0",
+  "homepage": "https://github.com/Grafikdev/jQuery-Ajax-Loading",
+  "author": {
+    "name": "Grafikdev",
+    "email": "contact@grafikdev.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Grafikdev/jQuery-Ajax-Loading.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Grafikdev/jQuery-Ajax-Loading/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Grafikdev/jQuery-Ajax-Loading/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [],
+  "dependencies": {
+    "jquery": "~1.9.1"
+  }
+}
