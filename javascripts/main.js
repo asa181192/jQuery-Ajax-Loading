@@ -17,7 +17,10 @@
                         helpers.start();
                     },
                     ajaxStop: function() {
-                        helpers.stop();
+                        var wait = setTimeout(function(){
+                            helpers.stop();
+                            clearTimeout(wait);
+                        },2000);
                     }
                 });
 
