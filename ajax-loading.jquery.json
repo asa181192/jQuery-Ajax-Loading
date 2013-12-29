@@ -1,12 +1,12 @@
 {
-    "name": "jQuery Ajax Loading",
+    "name": "ajax-loading",
     "title": "jQuery Ajax Loading",
     "description": "jQuery Ajax Loading.",
     "keywords": [
         "ajax",
         "loading"
     ],
-    "version": "1.0",
+    "version": "1.0.0",
     "author": {
         "name": "Grafikdev"
     },
