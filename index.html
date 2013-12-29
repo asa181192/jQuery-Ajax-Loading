@@ -8,13 +8,19 @@
     <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
     <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
     <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+    <link rel="stylesheet" href="https://raw.github.com/Grafikdev/jQuery-Ajax-Loading/master/jquery.loading.css"/>
 
     <script type="text/javascript" src="javascripts/modernizr.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript" src="https://raw.github.com/Grafikdev/jQuery-Ajax-Loading/master/jquery.loading.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
-        $('#main_content').headsmart()
+        $('#main_content').headsmart();
+        $("#test").click(function(){
+          var url = document.location.href;
+          $.ajax(url);
+        });
       })
     </script>
     <title>Jquery-ajax-loading by Grafikdev</title>
@@ -62,6 +68,11 @@
     <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">Loading</span><span class="p">();</span>
 <span class="nt">&lt;/script&gt;</span>
 </pre></div>
+
+<h2>
+<a name="showtime" class="anchor" href="#showtime"><span class="octicon octicon-link"></span></a>Show Time!</h2>
+
+<p><button id="test">Test Ajax Loading</button></p>
 
 <h2>
 <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
