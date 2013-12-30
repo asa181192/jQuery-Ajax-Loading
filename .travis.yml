@@ -1,9 +1,19 @@
 language: node_js
 node_js:
   - 0.8
+<<<<<<< HEAD
 
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
 
 
+=======
+ruby:
+  - 1.8
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - "bundle install"
+  - "npm install grunt-cli"
+>>>>>>> 7bfd70fcb15b85367a3d77fbf2b1f604279a8241
