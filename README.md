@@ -1,4 +1,4 @@
-jQuery Ajax Loading
+jQuery Ajax Loading [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Grafikdev/jquery-ajax-loading/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 ====================
 
 Loading is a jQuery plugin that makes full screen loading at any ajax event call.
