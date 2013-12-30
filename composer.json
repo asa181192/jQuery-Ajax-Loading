@@ -1,0 +1,9 @@
+{
+    "name": "Grafikdev/jQuery-Ajax-Loading",
+    "description": "Ajax-Loading Jquery plugin",
+    "version": "1.0.0",
+    "homepage": "https://github.com/Grafikdev/jQuery-Ajax-Loading",
+    "require": {
+        "jquery": ">=1.9.1"
+    }
+}
