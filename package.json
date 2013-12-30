@@ -21,9 +21,5 @@
       "url": "https://github.com/Grafikdev/jQuery-Ajax-Loading/blob/master/LICENSE"
     }
   ],
-  "keywords": [],
-  "engines": {
-    "node": ">= 0.6.0"
-  },
-  "private": true
+  "keywords": []
 }
